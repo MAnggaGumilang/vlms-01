@@ -238,3 +238,18 @@ footer .text-right a {
 footer .text-right a:hover {
 	color: blue;
 }
+
+
+/*responsive */
+@media (max-width: 575.98px)
+ {
+  #banner, #newsbout {
+    text-align: center;
+  }
+  #list-tab {
+    margin-bottom: 20px;
+  }
+  #newsbout iframe {
+    width: 100%;
+  }
+}
